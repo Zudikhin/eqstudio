@@ -344,6 +344,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background: #1B1B1B;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .header_dropdown_contact span {
   font-family: "Pragmatica Extended";
@@ -352,6 +354,11 @@ body {
   line-height: 18px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.header_dropdown_contact:hover {
+  background: #585858;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .header.active .header_dropdown {
   height: 200px;
@@ -434,6 +441,8 @@ body {
     background: #1B1B1B;
     position: absolute;
     right: 0px;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
   }
   .header_block_other_callback span {
     font-family: "Pragmatica Extended";
@@ -442,6 +451,11 @@ body {
     line-height: 18px;
     text-transform: uppercase;
     color: #FFFFFF;
+  }
+  .header_block_other_callback:hover {
+    background: #585858;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
   }
 }
 
@@ -1260,6 +1274,8 @@ body {
   height: 64px;
   background: #FF4D00;
   margin-top: 30px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .business_mobile_content_btn span {
   font-family: "Pragmatica Extended";
@@ -1268,6 +1284,11 @@ body {
   line-height: 18px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.business_mobile_content_btn:hover {
+  background: #FF8A58;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .business_mobile_content.active {
   display: block;
@@ -1614,6 +1635,11 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
   }
+  .business_desktop_content_row_column_btn:hover {
+    background: #FF8A58;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
   .business_desktop_content_row_column.active .business_desktop_content_row_column_btn {
     opacity: 1;
     -webkit-transition: all 0.3s linear;
@@ -1764,6 +1790,13 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.contact_block_right p input[type=submit]:hover {
+  background: #FF8A58;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 @media (min-width: 1200px) {
   .contact {
